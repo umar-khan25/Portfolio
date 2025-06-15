@@ -72,14 +72,14 @@ export const projectsData = [
   {
     title: "E10x",
     description:
-      "I worked as a Front-end developer on this startup project for 2 years. Doc/providers of US hospital uses our services",
+      "Developed scalable web applications for U.S.-based healthcare providers using ReactJS and TypeScript.",
     tags: ["React", "Tailwind", "RTK"],
     imageUrl: E10x,
   },
   {
     title: "Virtual Days",
     description:
-      "Job board for jobs. I was the front-end developer. It has features like recruiting, fairs and hosting.",
+      "Delivered high-performance web applications for clients including Accenture and Global Study Abroad.",
     tags: ["React", "SASS", "Redux"],
     imageUrl: vrd,
   },
@@ -89,6 +89,12 @@ export const projectsData = [
       "A AI Chatbot which solve given problem like image recognition/image vision, matching profiles etc",
     tags: ["React", "Next.js", "i18n", "Tailwind", "Framer"],
     imageUrl: Alphabyte,
+  },
+  {
+    title: "Wurqi",
+    description:"Wurqi platform, which is an enterprise work-management solution designed to unify tasks, goals, communication, and visibility across organizations.",
+    tags: ["Next.js", "MSAL", "Tailwind", "Framer"],
+    imageUrl: vrd,
   },
 ] as const;
 
